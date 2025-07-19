@@ -2,11 +2,11 @@
   "name": "message-board",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Moyinoluwa360/message-board#readme",
   "dependencies": {
+    "dotenv": "^17.2.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0"
   },
